@@ -27,3 +27,7 @@ Para executar este projeto, você precisará de:
 
    ```bash
    git clone https://github.com/seu-usuario/gerenciador-de-estoque.git
+
+## Autores
+
+- [@orobsoncastilho](https://github.com/orobsoncastilho)
