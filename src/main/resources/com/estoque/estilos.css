@@ -1,0 +1,63 @@
+/* Aplicando um estilo de fundo claro para a aplicação */
+.root {
+    -fx-background-color: #f0f0f0;
+    -fx-padding: 20px; /* Adiciona uma borda interna ao redor do conteúdo */
+    -fx-alignment: center; /* Centraliza o conteúdo */
+}
+
+/* Estilizando os botões */
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-margin: 5px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-effect: dropshadow(gaussian, #333333, 5, 0.5, 0, 2); /* Sombra para destaque */
+}
+
+/* Estilizando as labels */
+.label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-margin: 10px 0;
+}
+
+/* Estilizando os campos de texto */
+.text-field {
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-background-color: #ffffff;
+    -fx-margin: 10px 0;
+}
+
+/* Estilizando a tabela */
+.table-view {
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-background-color: #ffffff;
+    -fx-padding: 10px;
+}
+
+/* Estilizando as colunas da tabela */
+.table-column {
+    -fx-text-fill: #333333;
+    -fx-font-size: 14px;
+}
+
+/* Estilizando o VBox */
+.vbox {
+    -fx-alignment: center;
+    -fx-spacing: 10px;
+    -fx-padding: 20px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+}
